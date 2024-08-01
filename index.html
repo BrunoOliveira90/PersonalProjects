@@ -6,6 +6,32 @@
     <title>Minhas Redes Sociais</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            margin-bottom: 50px;
+        }
+        .card {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -15,32 +41,82 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/seu-perfil" target="_blank">LinkedIn</a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/bruno-rodrigues-de-oliveira-91b90b230/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/seu-usuario" target="_blank">GitHub</a>
+                    <a class="nav-link" href="https://github.com/BrunoOliveira90" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://twitter.com/seu-usuario" target="_blank">Twitter</a>
+                    <a class="nav-link" href="https://www.facebook.com/bruno.rodriguesdeoliveira.961/" target="_blank"><i class="fab fa-twitter"></i> Facebook</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://instagram.com/seu-usuario" target="_blank">Instagram</a>
+                    <a class="nav-link" href="https://www.instagram.com/brunowowps/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <h1 class="text-center">Minhas Redes Sociais</h1>
-        <ul class="list-group mt-4">
-            <li class="list-group-item"><a href="https://www.linkedin.com/in/seu-perfil" target="_blank">LinkedIn</a></li>
-            <li class="list-group-item"><a href="https://github.com/seu-usuario" target="_blank">GitHub</a></li>
-            <li class="list-group-item"><a href="https://twitter.com/seu-usuario" target="_blank">Twitter</a></li>
-            <li class="list-group-item"><a href="https://instagram.com/seu-usuario" target="_blank">Instagram</a></li>
-        </ul>
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h1>Bem-vindo às Minhas Redes Sociais</h1>
+                <p class="lead">Conecte-se comigo através das minhas plataformas sociais</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fab fa-linkedin fa-3x mb-3"></i>
+                        <h5 class="card-title">LinkedIn</h5>
+                        <p class="card-text">Veja meu perfil profissional.</p>
+                        <a href="https://www.linkedin.com/in/bruno-rodrigues-de-oliveira-91b90b230/" class="btn btn-primary" target="_blank">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fab fa-github fa-3x mb-3"></i>
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">Veja meus projetos e repositórios.</p>
+                        <a href="https://github.com/BrunoOliveira90" class="btn btn-dark" target="_blank">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fab fa-twitter fa-3x mb-3"></i>
+                        <h5 class="card-title">Twitter</h5>
+                        <p class="card-text">Siga minha página no Facebook.</p>
+                        <a href="https://www.facebook.com/bruno.rodriguesdeoliveira.961/" class="btn btn-info" target="_blank">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fab fa-instagram fa-3x mb-3"></i>
+                        <h5 class="card-title">Instagram</h5>
+                        <p class="card-text">Veja minhas fotos e stories.</p>
+                        <a href="https://www.instagram.com/brunowowps/" class="btn btn-danger" target="_blank">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5">
+        <div class="container">
+            <p>&copy; 2024 Bruno Rodrigues de Oliveira. Todos os direitos reservados.</p>
+            <p>Feito com <i class="fas fa-heart"></i> e Bootstrap.</p>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
