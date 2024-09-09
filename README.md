@@ -1,5 +1,4 @@
 # PersonalProjects
-Rename this repo as "Presentation"
 
 Link: https://brunooliveira90.github.io/PersonalProjects/
 
